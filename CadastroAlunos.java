@@ -40,5 +40,6 @@ public class CadastroAlunos {
             System.out.println("Ocorreu um erro ao gravar o arquivo: " + e.getMessage());
         }
 
+        scanner.close();
     }
 }
